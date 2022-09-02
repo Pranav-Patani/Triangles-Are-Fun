@@ -31,6 +31,7 @@ body {
 }
 
 h2 {
+  font-size: 30px;  
   margin-top: 2rem;
   font-weight: bolder;
 }
@@ -172,7 +173,31 @@ nav a {
 }
 
 .calc-hypo-button {
-  margin: 1.5rem auto;
+  margin: 2rem auto;
+  padding: 0.1rem 1rem;
+  background-color: var(--button-color);
+  border: 1rem solid var(--quiz-border);
+  border-radius: 1rem;
+  color: var(--text-color-light);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/**********************/
+/** AREA CALCULATOR **/
+/*********************/
+
+.input-text {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: 1px solid var(--input-border);
+  background-color: var(--input-background);
+  color: var(--text-color-dark);
+  font-weight: bolder;
+}
+
+.calc-area-button {
+  margin: 2rem auto;
   padding: 0.1rem 1rem;
   background-color: var(--button-color);
   border: 1rem solid var(--quiz-border);

@@ -11,19 +11,38 @@
     <header class="hero">
       <h1>Fun With Triangles</h1>
       <nav>
+        <a href="index.html">Quiz</a>
         <a href="identifyTriangle.html">Identify Triangle</a>
-        <a href="il">Quiz</a>
         <a href="hypotenuse.html">Hypotenuse</a>
         <a href="areaOfTriangle.html" class="active">Area of Triangle</a>
       </nav>
     </header>
 
+    <main class="calculator">
+      <h2>Calculate Area of a triangle</h2>
+      <form class="area-calculator">
+        <label class="input-label" for="first-side">
+          <p>First Side Of Triangle</p>
+          <input class="input-text first-side" required type="number" />
+        </label>
+        <label class="input-label" for="second-side">
+          <p>Second Side Of Triangle</p>
+          <input class="input-text second-side" required type="number" />
+        </label>
+        <label class="input-label" for="third-side">
+          <p>Third Side Of Triangle</p>
+          <input class="input-text third-side" required type="number" />
+        </label>
+        <br />
+        <button class="calc-area-button" type="submit">Calculate Area</button>
+      </form>
+      <h3 class="output"></h3>
+    </main>
+    <script src="./javaScript/area.js"></script>
     <footer class="footer">
       <h3>About</h3>
       <p>
-        A triangle quiz to help you learn about triangles and test your
-        knowledge! Remember, a wrong answer means you learnt something new today
-        ;)
+          Enter three sides of a triangle and calculate their area.
       </p>
     </footer>
   </body>
