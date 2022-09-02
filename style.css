@@ -144,6 +144,44 @@ nav a {
   font-size: 16px;
   font-weight: bold;
 }
+
+/***************************/
+/** HYPOTENUSE CALCULATOR **/
+/***************************/
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    var(--gradient-light),
+    var(--gradient-dark)
+  );
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.input-side {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: 1px solid var(--input-border);
+  background-color: var(--input-background);
+  color: var(--text-color-dark);
+  font-weight: bolder;
+}
+
+.calc-hypo-button {
+  margin: 1.5rem auto;
+  padding: 0.1rem 1rem;
+  background-color: var(--button-color);
+  border: 1rem solid var(--quiz-border);
+  border-radius: 1rem;
+  color: var(--text-color-light);
+  font-size: 16px;
+  font-weight: bold;
+}
+
 /**Footer**/
 
 .footer {
