@@ -5,10 +5,13 @@
 :root {
   --primary-color: #4338ca;
   --text-color-light: #eef2ff;
+  --text-color-dark: #312e81;
   --gradient-dark: var(--primary-color);
   --gradient-light: #4f46e5;
   --button-color: #3730a3;
   --quiz-border: #3730a3;
+  --input-background: #818cf8;
+  --input-border: #3730a3;
 }
 
 body {
@@ -61,7 +64,9 @@ nav a {
   border-radius: 1rem;
 }
 
-/**Quiz**/
+/************/
+/** QUIZ **/
+/***********/
 
 .quiz-form {
   display: flex;
@@ -90,6 +95,56 @@ nav a {
   font-size: 16px;
   font-weight: bold;
 }
+
+.option-box {
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 0.3rem;
+  background-color: #4f46e5;
+}
+
+/***********************/
+/** IDENTIFY TRIANGLE **/
+/***********************/
+
+.identify-triangle {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    var(--gradient-light),
+    var(--gradient-dark)
+  );
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.input-label {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.angle-input {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: 1px solid var(--input-border);
+  background-color: var(--input-background);
+  color: var(--text-color-dark);
+  font-weight: bolder;
+}
+
+.identify-button {
+  margin: 1.5rem auto;
+  padding: 0.1rem 1rem;
+  background-color: var(--button-color);
+  border: 1rem solid var(--quiz-border);
+  border-radius: 1rem;
+  color: var(--text-color-light);
+  font-size: 16px;
+  font-weight: bold;
+}
+/**Footer**/
 
 .footer {
   background-image: linear-gradient(

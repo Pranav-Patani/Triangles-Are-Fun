@@ -11,7 +11,7 @@
     <header class="hero">
       <h1>Fun With Triangles</h1>
       <nav>
-        <a href="isTriangle.html">Is Triangle?</a>
+        <a href="identifyTriangle.html">Identify Triangle</a>
         <a href="index.html" class="active">Quiz</a>
         <a href="hypotenuse.html">Hypotenuse</a>
         <a href="areaOfTriangle.html">Area of Triangle</a>
@@ -27,59 +27,59 @@
             What is the third angle for the triangle where angle1 = 45° and
             angle2 = 45°?
           </p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question1" value="45°" />45°
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question1" value="60°" />60°
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question1" value="90°" />90°
           </label>
         </div>
 
         <div class="question-container">
           <p>If a triangle has an angle of 90°, what is it called?</p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question2" value="acute" />acute
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question2" value="Obtuse" />Obtuse
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question2" value="right angled" />right
             angled
           </label>
         </div>
         <div class="question-container">
           <p>A triangle can have</p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question3" value="one right angle" />
             one right angle
           </label>
-          <label
+          <label class="option-box"
             ><input type="radio" name="question3" value="two right angles" />two
             right angles</label
           >
         </div>
         <div class="question-container">
           <p>Which of the following can form a right angled triangle?</p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question4" value="14, 15, 26" />
             14, 15, 26
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question4" value="12, 16, 20" />
             12, 16, 20</label
           >
         </div>
         <div class="question-container">
           <p>Which of the following triangles are always similar?</p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question5" value="Equilateral triangle" />
             Equilateral triangle
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question5" value="Isosceles triangle" />
             Isosceles triangle</label
           >
@@ -89,11 +89,11 @@
             If one angle of a triangle is obtuse, then which one of the
             following is the possible measure of remaining angles?
           </p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question6" value="100°" />
             100°
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question6" value="85°" />
             85°</label
           >
@@ -104,11 +104,11 @@
             If the largest angle in a triangle is 70°, what is the least
             possible value of the smallest angle of the triangle?
           </p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question7" value="30°" />
             30°
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question7" value="10°" />
             10°
           </label>
@@ -116,15 +116,15 @@
 
         <div class="question-container">
           <p>The perimeter of scalene triangle with sides a, b, c is</p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question8" value="a + b + c" />
             a + b + c
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question8" value="2a" />
             2a
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question8" value="None of these" />
             None of these
           </label>
@@ -132,14 +132,14 @@
 
         <div class="question-container">
           <p>A scalene triangle has ___ lines of symmetry</p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question9" value="two" />two
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question9" value="no" />
             no
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question9" value="15" />
             15
           </label>
@@ -150,27 +150,32 @@
             There is a right triangle PQR where: angle Q = 90°; angle P = angle
             R. What is the measure of angles P and R?
           </p>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question10" value="85°" />
             85°
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question10" value="65°" />
             65°
           </label>
-          <label>
+          <label class="option-box">
             <input type="radio" name="question10" value="45°" />
             45°
           </label>
         </div>
       </form>
       <button class="submit-button">Submit</button>
-      <h3 class="output">Test Words</h3>
+      <h3 class="output"></h3>
     </main>
 
     <footer class="footer">
-        <h3>About</h3>
-        <p>A triangle quiz to help you learn about triangles and test your knowledge! Remember, a wrong answer means you learnt something new today ;)</p>
+      <h3>About</h3>
+      <p>
+        A triangle quiz to help you learn about triangles and test your
+        knowledge! Remember, a wrong answer means you learnt something new today
+        ;)
+      </p>
     </footer>
+    <script src="./javaScript/quiz.js"></script>
   </body>
 </html>
