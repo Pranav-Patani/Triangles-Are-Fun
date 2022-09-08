@@ -36,6 +36,18 @@ h2 {
   font-weight: bolder;
 }
 
+@media only screen and (max-width: 357px) {
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 333px) {
+  h2 {
+    font-size: 26px;
+  }
+}
+
 h3 {
   font-weight: bolder;
 }
@@ -49,20 +61,44 @@ h3 {
   );
 }
 
+@media only screen and (max-width: 639px) {
+  .hero {
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-width: 358px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
 nav {
   display: flex;
   margin: 1rem auto;
-  width: 50%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 695px) {
+  nav {
+    flex-wrap: wrap;
+  }
 }
 
 nav a {
-  margin: 1rem auto;
+  margin: 1rem;
   display: inline;
   text-decoration: none;
   color: var(--text-color-light);
   padding: 1rem;
   background-color: var(--button-color);
   border-radius: 1rem;
+}
+
+@media only screen and (max-width: 695px) {
+  nav a {
+    width: 40%;
+  }
 }
 
 .active {
@@ -88,6 +124,26 @@ nav a {
     var(--gradient-light),
     var(--gradient-dark)
   );
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 692px) {
+  .question-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .question-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 494px) {
+  .question-container {
+    width: 80%;
+  }
 }
 
 .submit-button {
@@ -103,9 +159,10 @@ nav a {
 
 .option-box {
   border-radius: 0.5rem;
-  margin: 1rem;
+  margin: 1rem auto;
   padding: 0.3rem;
   background-color: #4f46e5;
+  width: 60%;
 }
 
 /***********************/
@@ -123,6 +180,24 @@ nav a {
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 2rem;
+}
+
+@media only screen and (max-width: 695px) {
+  .identify-triangle {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .identify-triangle {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 494px) {
+  .identify-triangle {
+    width: 80%;
+  }
 }
 
 .input-label {
@@ -165,6 +240,24 @@ nav a {
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 2rem;
+}
+
+@media only screen and (max-width: 695px) {
+  .calculator {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .calculator {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 494px) {
+  .calculator {
+    width: 80%;
+  }
 }
 
 .input-side {
@@ -226,4 +319,22 @@ nav a {
   width: 60%;
   margin: 1rem auto;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 783px) {
+  .footer p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .footer p {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .footer p {
+    width: 95%;
+  }
 }
